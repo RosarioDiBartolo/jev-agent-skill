@@ -1,0 +1,9 @@
+{
+  "state": {"sender": "Customer", "subject": "Duplicate invoice charge", "body": "I was billed twice for the same invoice. Please confirm a refund today; our accounts close this afternoon."},
+  "questions": {
+    "requires_reply": {"type": "noul", "instructions": "Does the sender request a response or information from the recipient?"},
+    "urgency": {"type": "score", "instructions": "How soon does the sender explicitly need action?", "criteria": ["No deadline given", "Action needed this week", "Action needed today"]},
+    "category": {"type": "choice", "instructions": "What is the main topic?", "criteria": {"billing": "Invoices, charges, or refunds", "technical": "Product bugs or access problems", "other": "Other or unclear topic"}},
+    "deeper_review": {"type": "noul", "instructions": "Does resolving this message require checking external records, interpreting conflicting information, or making a consequential decision?"}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "state": {"user_request": "Find Daniel's email about the invoice."},
+  "questions": {
+    "tool": {
+      "type": "choice",
+      "instructions": "Select the available search tool best suited to finding the requested item. Choose review if no tool fits or the request lacks enough context.",
+      "criteria": {
+        "gmail_search": "Search the user's Gmail messages",
+        "github_search": "Search repositories, issues, and pull requests",
+        "web_search": "Search public web pages",
+        "file_search": "Search local documents and files",
+        "review": "No appropriate tool or insufficient context"
+      }
+    }
+  }
+}

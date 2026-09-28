@@ -1,0 +1,7 @@
+{
+  "state": {"title": "Export loses accented characters", "body": "CSV export changes customer names with accents to question marks. It occurs for all exports, but the original records remain intact."},
+  "questions": {
+    "category": {"type": "choice", "instructions": "Classify the GitHub issue by its primary intent.", "criteria": {"bug": "Existing behavior is incorrect", "feature": "Request for a new capability", "question": "Request for explanation or help", "review": "Unclear or does not fit"}},
+    "impact": {"type": "score", "instructions": "Rate the reported user impact, using only the evidence supplied.", "criteria": ["Cosmetic inconvenience with no affected data or workflow", "A workflow produces incorrect output but original data remains available", "Core operation unavailable or original data permanently lost"]}
+  }
+}
